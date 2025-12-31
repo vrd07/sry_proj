@@ -11,7 +11,7 @@ export function MusicPlayer() {
     const audioRef = useRef<HTMLAudioElement>(null);
 
     // Placeholder track
-    const trackUrl = "/music/background.mp3";
+    const trackUrl = "/music/background.mp4";
 
     const togglePlay = () => {
         if (audioRef.current) {
