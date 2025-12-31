@@ -1,0 +1,30 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at center, var(--color-midnight-blue) 0%, #000 100%);
+    padding: 2rem;
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 200;
+    color: var(--color-champagne-gold);
+    margin-bottom: 1rem;
+    letter-spacing: 0.2rem;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 3rem;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+.buttonWrapper {
+    margin-top: 2rem;
+}

@@ -1,0 +1,28 @@
+:root {
+  /* Core Palette */
+  --color-midnight-blue: #191970;
+  --color-champagne-gold: #F7E7CE;
+  --color-silver: #C0C0C0;
+  --color-rose-gold: #B76E79;
+  --color-deep-purple: #4B0082;
+  --color-sparkle-white: #FFFAFA;
+
+  /* Semantic Colors */
+  --bg-primary: var(--color-midnight-blue);
+  --text-primary: var(--color-sparkle-white);
+  --text-accent: var(--color-champagne-gold);
+  
+  /* Gradients */
+  --gradient-midnight-gold: linear-gradient(135deg, var(--color-midnight-blue), var(--color-champagne-gold));
+  --gradient-purple-rose: linear-gradient(135deg, var(--color-deep-purple), var(--color-rose-gold));
+  --gradient-blue-silver: linear-gradient(135deg, var(--color-midnight-blue), var(--color-silver));
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}

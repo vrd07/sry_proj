@@ -1,0 +1,83 @@
+.container {
+    min-height: 100vh;
+    padding: 6rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: var(--color-champagne-gold);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    width: 100%;
+}
+
+.roomCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    height: 100%;
+    transition: transform 0.3s;
+}
+
+.roomCard:hover {
+    transform: translateY(-5px);
+}
+
+.iconWrapper {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: var(--color-champagne-gold);
+}
+
+.roomTitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.roomDesc {
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.locked {
+    opacity: 0.5;
+    filter: grayscale(1);
+    pointer-events: none;
+}
+
+.newYearSection {
+    margin-top: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.newYearCard {
+    background: linear-gradient(135deg, rgba(25, 25, 112, 0.8), rgba(75, 0, 130, 0.8));
+    border: 2px solid var(--color-champagne-gold);
+    box-shadow: 0 0 20px rgba(247, 231, 206, 0.2);
+    width: 100%;
+    max-width: 600px;
+}

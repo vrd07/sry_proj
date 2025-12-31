@@ -1,0 +1,68 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 200;
+    backdrop-filter: blur(8px);
+}
+
+.ceremonyContainer {
+    text-align: center;
+    max-width: 600px;
+    width: 90%;
+    position: relative;
+}
+
+.velvetBox {
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, #001f3f 0%, #000814 100%);
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 0 50px rgba(0, 31, 63, 0.5);
+    border: 2px solid rgba(255, 215, 0, 0.3);
+    position: relative;
+}
+
+.boxLid {
+    font-size: 4rem;
+}
+
+.ringImage {
+    width: 100%;
+    max-width: 300px;
+    filter: drop-shadow(0 0 30px rgba(255, 255, 255, 0.5));
+    margin-bottom: 2rem;
+}
+
+.question {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: var(--color-champagne-gold);
+    margin-bottom: 2rem;
+    text-shadow: 0 0 20px rgba(212, 175, 55, 0.5);
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.message {
+    font-size: 2rem;
+    color: white;
+    margin-top: 1rem;
+    font-weight: 300;
+}

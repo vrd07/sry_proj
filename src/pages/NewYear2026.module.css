@@ -1,0 +1,71 @@
+.container {
+    min-height: 100vh;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at center, #1a0b2e 0%, #000 100%);
+    overflow: hidden;
+    position: relative;
+}
+
+.countdownSection {
+    text-align: center;
+    z-index: 10;
+}
+
+.heading {
+    font-size: 2rem;
+    color: var(--color-champagne-gold);
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.celebrationSection {
+    text-align: center;
+    z-index: 10;
+    width: 100%;
+    max-width: 800px;
+}
+
+.celebrationTitle {
+    font-size: 4rem;
+    font-weight: 800;
+    background: var(--gradient-midnight-gold);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 2rem;
+    animation: pulse 2s infinite;
+}
+
+.messageCard {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(247, 231, 206, 0.2);
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.accordion {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

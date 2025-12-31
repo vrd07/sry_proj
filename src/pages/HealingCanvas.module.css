@@ -1,0 +1,35 @@
+.container {
+    min-height: 100vh;
+    padding: 6rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: var(--color-champagne-gold);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.canvasWrapper {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
+}
+
+.canvas {
+    border: 1px solid #e2e2e2;
+    cursor: crosshair;
+    background: #fff;
+    touch-action: none;
+}
+
+.controls {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+}
